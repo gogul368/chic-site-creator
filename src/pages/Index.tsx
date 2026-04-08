@@ -5,6 +5,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import NewIn from "@/components/NewIn";
 import FeaturedCategories from "@/components/FeaturedCategories";
 import AboutUs from "@/components/AboutUs";
+import InstagramReels from "@/components/InstagramReels";
 import BottomNav from "@/components/BottomNav";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -17,6 +18,7 @@ const Index = () => {
       <HeroCarousel />
       <NewIn />
       <FeaturedCategories />
+      <InstagramReels />
       <AboutUs />
       <BottomNav />
       <WhatsAppButton />
