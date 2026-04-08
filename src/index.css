@@ -125,3 +125,19 @@
 .animate-fade-in {
   animation: fade-in 0.6s ease-out forwards;
 }
+
+/* Warm beige color grading for all images except hero banner */
+img {
+  filter: sepia(0.15) saturate(0.85) brightness(1.02) contrast(0.95) hue-rotate(-5deg);
+  transition: filter 0.3s ease;
+}
+
+/* Exclude hero carousel images from warm filter */
+.hero-carousel img {
+  filter: none;
+}
+
+/* Ensure hover zoom in product gallery still works smoothly */
+img:hover {
+  filter: sepia(0.15) saturate(0.85) brightness(1.04) contrast(0.95) hue-rotate(-5deg);
+}

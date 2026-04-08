@@ -38,7 +38,7 @@ const HeroCarousel = () => {
   }, [next]);
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="hero-carousel relative w-full overflow-hidden">
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
